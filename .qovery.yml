@@ -1,0 +1,11 @@
+---
+application:
+  name: "gggle-filestream"
+  project: "test"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-gggle-filestream"
+  routes:
+  - application_name: "gggle-filestream"
+    paths:
+    - "/*"
